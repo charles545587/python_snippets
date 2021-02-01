@@ -1,4 +1,4 @@
-# How to merge two dictionaries
+# How to merge two dictionaries using **
 # in python 3.5+
 
 first_dict = {'orange': 1, 'apples': 2}
