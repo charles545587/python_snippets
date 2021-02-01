@@ -2,7 +2,6 @@
 # They can be used wherever regular tuples are used,
 # and they add the ability to access fields by name instead of position index.
 
-
 from collections import namedtuple
 
 user_record = namedtuple('user_record', [

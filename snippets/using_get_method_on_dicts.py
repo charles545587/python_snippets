@@ -12,9 +12,9 @@ name_for_userid = {
 def greeting(userid):
     return (f"Hi {name_for_userid.get(userid, 'there')}!")
 
-# if the key exists the value is returned.
 
-greeting(382)  #returns "Hi Alice!"
+# if the key exists the value is returned.
+greeting(382)  # returns "Hi Alice!"
 
 # if it does not exist the value of the default argument is returned.
 greeting(333333)  # returns "Hi there!"
