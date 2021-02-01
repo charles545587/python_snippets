@@ -9,7 +9,7 @@ print(my_dictionary)
 # returns
 # {'oranges': 4, 'apples': 3, 'bananas': 2, 'pears': 1}
 
-# or
+# or use a lambda function
 
 my_dictionary = {'oranges': 4, 'apples': 3, 'bananas': 2, 'pears': 1}
 sorted(my_dictionary.items(), key=lambda x: x[1])

@@ -1,8 +1,9 @@
 # How to merge two dictionaries
 # in python 3.5+
 
-x = {'a': 1, 'b': 2}
-y = {'b': 3, 'c': 4}
-z = {**x, **y}
+first_dict = {'orange': 1, 'apples': 2}
+second_dict = {'bananas': 3, 'pears': 4}
+combined_dict = {**first_dict, **second_dict}
 
-print(z)  # Returns {'a': 1, 'b': 3, 'c': 4}
+print(combined_dict)
+# {'orange': 1, 'apples': 2, 'bananas': 3, 'pears': 4}
