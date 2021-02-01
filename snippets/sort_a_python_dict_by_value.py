@@ -2,16 +2,18 @@
 
 import operator
 
-xs = {'a': 4, 'b': 3, 'c': 2, 'd': 1}
-sorted(xs.items(), key=operator.itemgetter(1))
+my_dictionary = {'oranges': 4, 'apples': 3, 'bananas': 2, 'pears': 1}
+sorted(my_dictionary.items(), key=operator.itemgetter(1))
+print(my_dictionary)
 
 # returns
-# [('d', 1), ('c', 2), ('b', 3), ('a', 4)]
+# {'oranges': 4, 'apples': 3, 'bananas': 2, 'pears': 1}
 
 # or
 
-xs = {'a': 4, 'b': 3, 'c': 2, 'd': 1}
-sorted(xs.items(), key=lambda x: x[1])
+my_dictionary = {'oranges': 4, 'apples': 3, 'bananas': 2, 'pears': 1}
+sorted(my_dictionary.items(), key=lambda x: x[1])
+print(my_dictionary)
 
 # returns
-# [('d', 1), ('c', 2), ('b', 3), ('a', 4)]
+# {'oranges': 4, 'apples': 3, 'bananas': 2, 'pears': 1}
