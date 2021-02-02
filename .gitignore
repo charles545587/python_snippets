@@ -1,5 +1,7 @@
 #VS Code
 /.vscode
+/.devcontainer
+/.idea
 
 #mac 
 .DS_Store
