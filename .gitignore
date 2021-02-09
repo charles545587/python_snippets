@@ -1,3 +1,9 @@
+# AWS Snippets
+/aws_snippets/
+
+requirements.txt
+
+
 #VS Code
 /.vscode
 /.devcontainer/*
