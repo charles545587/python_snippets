@@ -13,7 +13,8 @@ chrome.open(url)
 # Open a new window
 chrome.open_new(url)
 
-# Open in a new tab
+#Open a new tab
+chrome.open_new_tab(url)
 
 # documentation
 # https://docs.python.org/3/library/webbrowser.html
