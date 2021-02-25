@@ -1,7 +1,7 @@
 # AWS Snippets
 /aws_snippets/
 /cdk_snippets/
-
+/.venv/
 
 requirements.txt
 
